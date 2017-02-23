@@ -24,7 +24,13 @@ import { Task } from './task.model';
 
 export class AppComponent {
     public masterTaskList: Task[] = [
+      /*
+      new Task ("Create to-Do List App.",0),
+      new Task ("do shopping",1),
+      */
     ];
+
+
     selectedTask: Task = null;
     showDetails(clickedTask: Task) {
         this.selectedTask = clickedTask;
